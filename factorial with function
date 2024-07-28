@@ -1,0 +1,13 @@
+deva harsha-192311126
+CREATE OR REPLACE FUNCTION factorial(n NUMBER) RETURN NUMBER IS
+BEGIN
+IF num = 0 THEN
+RETURN 1;
+ELSE
+RETURN num * factorial(num - 1);
+END IF;
+END;
+/
+select factorial(5) from dual;
+C:\Users\devah\OneDrive\Pictures\Screenshots\Screenshot 2024-07-28 205804.png
+
